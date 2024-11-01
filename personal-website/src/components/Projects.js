@@ -3,9 +3,9 @@ import { Container, Typography, Box, Stack, CardMedia, Card } from '@mui/materia
 import ProjectCard from './ProjectCard';
 
 
-const About = () => {
+const Projects = ({ id }) => {
   return (
-    <Container sx={{bgcolor: 'primary.main'}} maxWidth={false}>
+    <Container sx={{py: 5, bgcolor: 'primary.main'}} maxWidth={false} id ={id}>
       <Box sx={{ py: 5, bgcolor: 'primary.main'}}>
         <Stack spacing={10} direction='column' alignItems="center" textAlign="center">
             <Typography variant="h2" color='secondary'>
@@ -20,4 +20,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Projects;

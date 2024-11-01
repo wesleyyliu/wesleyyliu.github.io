@@ -2,9 +2,9 @@ import React from 'react';
 import { Container, Typography, Box, Stack } from '@mui/material';
 import ProfilePic from '../pfp.jpg';
 
-const About = () => {
+const About = ({ id }) => {
   return (
-    <Container sx={{bgcolor: 'primary.main'}} maxWidth={false}>
+    <Container sx={{py: 5, bgcolor: 'primary.main'}} maxWidth={false} id={id}>
       <Box sx={{ py: 5, bgcolor: 'primary.main'}}>
         <Stack spacing={10} direction='column' alignItems="center" textAlign="center">
             <Typography variant="h2" color='secondary'>

@@ -50,11 +50,11 @@ function App() {
         ]}
         style={{ zIndex: 9999 }}
       />
-      <Home />
-      <Header />
-      <About />
-      <Projects />
-      <Footer />
+      <Home id='home'/>
+      <Header/>
+      <About id='about' />
+      <Projects id='projects'/>
+      <Footer id='contact'/>
     </ThemeProvider>
   );
 }

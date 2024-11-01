@@ -2,9 +2,9 @@ import React from 'react';
 import { Container, Typography, Box, Stack } from '@mui/material';
 import NeuralNetwork from './NeuralNetwork';
 
-const Home = () => {
+const Home = ({ id }) => {
   return (
-    <Container sx={{ bgcolor: 'primary.main'}} maxWidth={false}>
+    <Container sx={{ bgcolor: 'primary.main'}} maxWidth={false} id={id}>
       <Box 
         sx={{ 
           px: 10, 

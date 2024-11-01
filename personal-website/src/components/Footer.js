@@ -2,9 +2,9 @@ import React from 'react';
 import { Box, Container, IconButton, Stack } from '@mui/material';
 import { GitHub, LinkedIn, Email } from '@mui/icons-material';
 
-const Footer = () => {
+const Footer = ( {id} ) => {
   return (
-    <Box component="footer" sx={{ py: 3, bgcolor: 'background.bars' }}>
+    <Box component="footer" sx={{ py: 3, bgcolor: 'background.bars' }} id={id}>
       <Container maxWidth="lg">
         <Stack spacing={2} alignItems="center">
           <Stack direction="row" spacing={2}>
