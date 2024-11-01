@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 
 function Header() {
   return (
-    <AppBar position="sticky" bgcolor='background.default'>
+    <AppBar position="sticky" bgcolor='background.bars' sx={{ zIndex: 0 }}>
     <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
             Wesley Liu

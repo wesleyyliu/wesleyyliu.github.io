@@ -4,7 +4,7 @@ import { GitHub, LinkedIn, Email } from '@mui/icons-material';
 
 const Footer = () => {
   return (
-    <Box component="footer" sx={{ py: 3, bgcolor: 'primary.main' }}>
+    <Box component="footer" sx={{ py: 3, bgcolor: 'background.bars' }}>
       <Container maxWidth="lg">
         <Stack spacing={2} alignItems="center">
           <Stack direction="row" spacing={2}>

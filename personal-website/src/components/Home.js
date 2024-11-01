@@ -6,13 +6,17 @@ const Home = () => {
   return (
     <Container sx={{ bgcolor: 'primary.main'}} maxWidth={false}>
       <Box 
-        sx={{ px: 10, height: '100vh', bgcolor: 'primary.main'}} 
+        sx={{ 
+          px: 10, 
+          height: '100vh', 
+          bgcolor: 'primary.main'
+        }} 
         display="flex"
         alignItems="center"
       >
         <Stack spacing={4} direction='row'>
           <Stack spacing={4} direction='column' alignItems='left' textAlign='left'>
-            <Typography variant='h3' color='secondary' fontWeight='light'>
+            <Typography variant='h3' color='secondary'>
               Hey, I'm
             </Typography>
             <Typography variant='h1' color='secondary'>
